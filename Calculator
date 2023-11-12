@@ -1,0 +1,475 @@
+public class botones extends javax.swing.JFrame
+{
+public botones()
+ {
+  this.setLocationRelativeTo(null);
+  initComponets();
+ }
+ private void initComponets()
+ {
+    jPanel1=new javax.swing.JPanel();
+    divicion=new javax.swing.JButton();
+    AC=new javax.swing.JButton();
+    menos=new javax.swing.JButton();
+    multiplicacion=new javax.swing.JButton();
+    siete=new javax.swing.JButton();
+    ocho=new javax.swing.JButton();
+    nueve=new javax.swing.JButton();
+    suma=new javax.swing.JButton();
+    cuatro=new javax.swing.JButton();
+    cinco=new javax.swing.JButton();
+    seis=new javax.swing.JButton();
+    igual=new javax.swing.JButton();
+    uno=new javax.swing.JButton();
+    dos=new javax.swing.JButton();
+    tres=new javax.swing.JButton();
+    cero=new javax.swing.JButton();
+    punto=new javax.swing.JButton();
+    Pantalla=new javax.swing.JButton();
+    raiz=new javax.swing.JButton();
+    division=new javax.swing.JButton();
+    sen=new javax.swing.JButton();
+    cos=new javax.swing.JButton();
+    potencia=new javax.swing.JButton();
+    off=new javax.swing.JButton();
+    
+    setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+    
+    JPanel1.setBackgroud(new java.awt.Color(204,200,200));
+    
+    division.setBackgroud(new java.awt.Color(204,204,204));
+    division.setForegroud(new java.awt.Color(0,0,0));
+    division.setText("/");
+    divison.AddActionListener(new java.awt.event.ActionListener(){
+      public void actionPerformet(java.awt.event.ActionEvent evt){
+          divisionActionPerformed(evt);
+      }
+    });
+    AC.setbackgroud(new java.awt.Color(204,204,204));
+    AC.setForegroud(new java.awt.Color(0,0,0));
+    AC.setTex("AC");
+    AC.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            ACActionPerformet(evt);
+        }
+    });
+    menos.setbackgroud(new java.awt.Color(204,204,204));
+    menos.setForegroud(new java.awt.Color(0,0,0));
+    menos.setTex("-");
+    menos.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            menosActionPerformet(evt);
+ }
+    });
+    multiplicacion.setbackgroud(new java.awt.Color(204,204,204));
+    multiplicacion.setForegroud(new java.awt.Color(0,0,0));
+    multiplicacion.setTex("X");
+    multiplicacion.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            multiplicacionActionPerformet(evt);
+        }
+    });
+    siete.setbackgroud(new java.awt.Color(204,204,204));
+    siete.setForegroud(new java.awt.Color(0,0,0));
+    siete.setTex("7");
+    siete.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            sieteActionPerformet(evt);
+        }
+    });
+    ocho.setbackgroud(new java.awt.Color(204,204,204));
+    ocho.setForegroud(new java.awt.Color(0,0,0));
+    ocho.setTex("8");
+    ocho.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            ochoActionPerformet(evt);
+        }
+    });
+    nueve.setbackgroud(new java.awt.Color(204,204,204));
+    nueve.setForegroud(new java.awt.Color(0,0,0));
+    nueve.setTex("9");
+    nueve.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            nueveActionPerformet(evt);
+        }
+    });
+    suma.setbackgroud(new java.awt.Color(204,204,204));
+    suma.setForegroud(new java.awt.Color(0,0,0));
+    suma.setTex("+");
+    suma.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            sumaActionPerformet(evt);
+        }
+    });
+    cuatro.setbackgroud(new java.awt.Color(204,204,204));
+    cuatro.setForegroud(new java.awt.Color(0,0,0));
+    cuatro.setTex("4");
+    cuatro.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            cuatroActionPerformet(evt);
+        }
+    });
+    cinco.setbackgroud(new java.awt.Color(204,204,204));
+    cinco.setForegroud(new java.awt.Color(0,0,0));
+    cinco.setTex("5");
+    cinco.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            cincoActionPerformet(evt);
+        }
+    });
+    seis.setbackgroud(new java.awt.Color(204,204,204));
+    seis.setForegroud(new java.awt.Color(0,0,0));
+    seis.setTex("6");
+    seis.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            seisActionPerformet(evt);
+        }
+    });
+    igual.setbackgroud(new java.awt.Color(204,204,204));
+    igual.setForegroud(new java.awt.Color(0,0,0));
+    igual.setTex("=");
+    igual.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            igualActionPerformet(evt);
+        }
+    });
+    uno.setbackgroud(new java.awt.Color(204,204,204));
+    uno.setForegroud(new java.awt.Color(0,0,0));
+    uno.setTex("1");
+    uno.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            unoActionPerformet(evt);
+        }
+    });
+    dos.setbackgroud(new java.awt.Color(204,204,204));
+    dos.setForegroud(new java.awt.Color(0,0,0));
+    dos.setTex("2");
+    dos.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            dosActionPerformet(evt);
+        }
+    });
+    tres.setbackgroud(new java.awt.Color(204,204,204));
+    tres.setForegroud(new java.awt.Color(0,0,0));
+    tres.setTex("3");
+    tres.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            tresActionPerformet(evt);
+        }
+    });
+    cero.setbackgroud(new java.awt.Color(204,204,204));
+    cero.setForegroud(new java.awt.Color(0,0,0));
+    cero.setTex("0");
+    cero.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            ceroActionPerformet(evt);
+        }
+    });
+    punto.setbackgroud(new java.awt.Color(204,204,204));
+    punto.setForegroud(new java.awt.Color(0,0,0));
+    punto.setTex(".");
+    punto.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            ceroActionPerformet(evt);
+        }
+    });
+    Pantalla.setbackgroud(new java.awt.Color(255,255,255));
+    Pantalla.setFont(new java.awt.Font("Dialog",0,24));
+    Pantalla.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+    Pantalla.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102,102,255)));
+    Pantalla.setOpaque(true);
+    
+    raiz.setbackgroud(new java.awt.Color(204,204,204));
+    raiz.setForegroud(new java.awt.Color(0,0,0));
+    raiz.setTex("raiz");
+    raiz.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            raizActionPerformet(evt);
+        }
+    });
+    diviision.setbackgroud(new java.awt.Color(204,204,204));
+    diviision.setForegroud(new java.awt.Color(0,0,0));
+    diviision.setTex("/");
+    diviision.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            diviisionActionPerformet(evt);
+        }
+    });
+    sen.setBackgroud(new java.awt.Color(204,204,204));
+    sen.setFont(new java.awt.Color("Dialog",0,10));
+    sen.setForeground(new java.awt.Color(0,0,0));
+    sen.setTex("sen");
+    sen.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            senActionPerformet(evt);
+        }
+    });
+    cos.setBackgroud(new java.awt.Color(204,204,204));
+    cos.setFont(new java.awt.Color("Dialog",0,10));
+    cos.setForeground(new java.awt.Color(0,0,0));
+    cos.setTex("cos");
+    cos.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            cosActionPerformet(evt);
+        }
+    });
+    potencia.setBackgroud(new java.awt.Color(204,204,204));
+    potencia.setForeground(new java.awt.Color(0,0,0));
+    potencia.setTex("pot");
+    potencia.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            potenciaActionPerformet(evt);
+        }
+    });
+    off.setBackgroud(new java.awt.Color(204,204,204));
+    off.setForeground(new java.awt.Color(0,0,0));
+    off.setTex("Off");
+    off.addActionListener(new java.awt.event.ActionListener(){
+     public void actionPerformet(java.awt.event.ActionEvent evt){
+            offActionPerformet(evt);
+        }
+    });
+    javax.swing.GroupLayout jPanel1Layout=new javax.swing.GroupLayout(jPanel1);
+    jPanel1.setLayout(jPanel1Layout);
+    jPanel1Layout.setHorizontalGroup(
+        jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        .addGroup(javax.swing.GroupLayout.Alignmen.TRAILING, jPanel1Layout.createSequentialGroup()
+            .addGap(12,12,12)
+            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignmen.TRAILING)
+                .addComponent(Pantalla, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(jPanel1Layout.createSequentialGroup()
+                            .addComponent(siete, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(ocho, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel1Layout.createSequentialGroup()
+                            .addComponent(cuatro, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(cinco, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel1Layout.createSequentialGroup()
+                            .addComponent(uno, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(dos, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(off, javax.swing.GroupLaout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE
+                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(AC, javax.swing.GroupLaout.DEFAULT_SIZE, 45, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(tres, javax.swing.GroupLayout.PREFERRED_SIZE, 45, Short.MAX_VALUE)
+                        .addComponent(seis, javax.swing.GroupLayout.PREFERRED_SIZE, 45, Short.MAX_VALUE)
+                        .addComponent(nueve, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                         .addGroup(jPanel1Layout.createParallelGroup()
+                            .addComponent(diviison, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(potencia, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(0,0, Short.MAX_VALUE))
+                        .addGroup(jPanel1Layout.createParallelGroup()
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(suma, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(menos, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(sen, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jPanel1Layout.createSequentialGroup()
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED,javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(cos, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(2,2,2))
+                                .addGroup(jPanel1Layout.createdSequentialGroup()
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(division, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(multiplicacion, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(0,0, Short.MAX_VALUE))))))
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
+                            .addComponent(cero, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(punto, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(igual, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(raiz, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(0,2, Short.MAX_VALUE)))
+                    .addContainerGap())
+    );
+    jPanel1Layout.setVerticalGroup(
+        jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        .addGroup(jPanel1Layout.createSequentialGroup()
+            .addGap(11,11,11)
+            .addComponent(Pantalla, javax.swing.GroupLayout.PREFERRED_SIZE, 56, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(sen, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(cos, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(AC, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(off, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(siete, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ocho, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(diviision, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(nueve, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(potencia, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(cuatro, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(cinco, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(seis, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(menos, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(division, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(uno, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(dos, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(tres, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(suma, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(multiplicacion, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addComponent(cero, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(punto, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(igual, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(raiz, javax.swing.GroupLayout.PREFERRED_SIZE, 45, javax.swing.GroupLayout.PREFERRED_SIZE)
+              .addContainerGap(30,Short.MAX_VALUE))
+    );
+    javax.swing.GroupLayout layout=new javax.swing.GroupLayout(getContentPane());
+    getContentPane().setLAyout(layout);
+    layout.setHorizontalGroup(
+        layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        .addGroup(layout.createSequentialGroup()
+            .addContainerGap()
+            .addComponent(jPanel1, javax.swing.GroupLAyout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addContainerGap())
+    );
+    layout.setVerticalGroup(
+        layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        .addGroup(layout.createSequentialGroup()
+            .addContainer()
+            .addComponet(jPanel1, javax.swing.GroupLayout.DEFAUL_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addContainerGAP())
+     );
+    // 
+    pack();
+}
+     
+    private void puntoActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println(".");
+        
+    }
+    private void ceroActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("0");
+    }
+    private void tresActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("3");
+    }
+    private void dosActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("2");
+    }
+    private void unoActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("1");
+    }
+    private void igualActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("=");
+    }
+    private void seisActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("6");
+    }
+    private void cincoActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("5");
+    }
+    private void cuatroActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("4");
+    }
+    private void sumaActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("+");
+    }
+    private void nueveActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("9");
+    }
+    private void ochoActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("8");
+    }
+    private void sieteActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("7");
+    }
+    private void multiplicacionActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("*");
+    }
+    private void menosActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("-");
+    }
+    private void ACActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("AC");
+    }
+    private void divicionActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("/");
+    }
+    private void raizActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("√");
+    }
+    private void diviisionActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("/");
+    }
+    private void senActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("Sen");
+    }
+    private void cosActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("Cos");
+    }
+    private void potenciaActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("^");
+    }
+    private void offActionPerformed(java.awt.event.ActionEvent evt){
+        System.out.println("OFF");
+    }
+    
+    public static void main(String[]args){
+        try{
+            for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels ()){
+                if("Nimbus".equals(info.getName())){
+                    javax.swing.UIManager.setLookAndFeel(info.getClassName());
+                    break;
+                }
+        }
+    }catch(ClassNotFountException ex){
+        java.util.logging.Logger.getLogger(botones.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+    }catch(InstantiationException ex){
+        java.util.logging.Logger.getLogger(botones.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+    }catch(IllegalAccessException ex){
+        java.util.logging.Logger.getLogger(botones.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+    }catch (javax.swing.UnsupportedLookAndFeelException ex) {
+        java.util.logging.Logger.getLogger(botones.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+    }
+           
+    java.awt.EventQueue.invokeLater(new Runnable() {
+        public void run(){
+            new botones().setVisible(true);
+        }
+    });
+}
+    private javax.swing.JButton AC;
+    private javax.swing.JLabel Pantalla;   
+    private javax.swing.JButton cero;   
+    private javax.swing.JButton cinco;   
+    private javax.swing.JButton cos;   
+    private javax.swing.JButton cuatro;   
+    private javax.swing.JButton diviision;   
+    private javax.swing.JButton division;   
+    private javax.swing.JButton dos;   
+    private javax.swing.JButton igual;   
+    private javax.swing.JPanel jPanel1;   
+    private javax.swing.JButton menos;   
+    private javax.swing.JButton multiplicacion;   
+    private javax.swing.JButton nueve;   
+    private javax.swing.JButton ocho;   
+    private javax.swing.JButton off;   
+    private javax.swing.JButton potencia;   
+    private javax.swing.JButton punto;   
+    private javax.swing.JButton raiz;   
+    private javax.swing.JButton seis;   
+    private javax.swing.JButton sen;   
+    private javax.swing.JButton siete;
+    private javax.swing.JButton suma;
+    private javax.swing.JButton tres;   
+}
